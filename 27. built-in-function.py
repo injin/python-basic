@@ -1,4 +1,4 @@
-# 내장함수 : import 하지 않고도 바로 사용 가능한 함수
+# 내장함수 : import 하지 않고도 바로 사용 가능한 함수 
 # 구글에서 "list of python built in"으로 검색
 
 language = input("무슨 언어를 좋아하세요?")
