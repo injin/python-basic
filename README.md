@@ -4,6 +4,7 @@
 * print("이름 : {0}\t나이 : {1}\t" .format(name, age), end=" ") end 정의해서 print 끝날 때 줄바꿈 하지 않고 " "로 끝내겠다.
 * print(lang1, lang2, lang3, lang4, lang5)
 * print("Python", "Java", sep=",")
+* 즉, 크게 세가지. 연결연산자(+) / 콤마(,) / .format()
 
 ### #2
 * 문자열 연결 시 숫자가 있으면 str()로 형변환 하여 맞춰줄 것
