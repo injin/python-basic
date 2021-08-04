@@ -37,7 +37,13 @@
 	사전: { key1: value1, key2: value2 }
 	튜플: ( value1, value2 )
 	집합: { value1, value2 }
-
+### #5-1 사전(Dictionary)에서 Key로 Value 얻기
+* 두가지 방법이 있다.
+* (1) a['key']
+* (2) a.get('key')
+    ```
+    a['nokey']처럼 존재하지 않는 키(nokey)로 값을 가져오려고 할 경우 a['nokey']는 Key 오류를 발생시키고 a.get('nokey')는 None을 돌려준다는 차이가 있다
+    ```
 
 ### #6
 if 조건 예시  
