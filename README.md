@@ -77,8 +77,10 @@ print("수수료는 {0} 원이며, 잔액은 {1} 원입니다." .format(commissi
 ```
 	
 가변인자
+* 가변 위치인자(*args)는 임의개수의 위치인자를 tuple형태의 변수로 저장
+* 가변 키워드인자(**kwargs)는 임의개수의 키워드인자를 dictionary형태로 저장
 ```python
-def profile_star(name, age, *languages):
+def profile_star(name, age, *languages, **hobbies):
 	for lang in languages
 ```
 
